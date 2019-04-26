@@ -35,8 +35,7 @@ class Transaction():
 def main():
 
     bank1 = Bank(1000)
-    bank1.add_client("Ala", 400)
-    bank1.add_client("Lukasz", 3004)
+    bank1.add_client("First_client", 400)
     print(bank1);
 
 
