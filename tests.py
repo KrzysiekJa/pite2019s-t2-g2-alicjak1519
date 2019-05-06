@@ -1,5 +1,5 @@
 import unittest
-from task_to_tests import Bank, Client
+from new_task import Bank, Client
 
 
 
