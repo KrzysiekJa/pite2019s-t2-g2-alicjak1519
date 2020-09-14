@@ -62,6 +62,7 @@ def transfer_outside(receiver_name, receiver_bank, sender_name, sender_bank, amo
         sender.balance-=amount
 
 
+
 def main():
 
     bank1 = Bank(100000, 2)
@@ -85,6 +86,6 @@ def main():
         bank2.add_client(input("Name: "), input("Start bank balance: "))
         bank3.add_client(input("Name: "), input("Start bank balance: "))
 
-    
+
 if __name__ == '__main__':
     main()
